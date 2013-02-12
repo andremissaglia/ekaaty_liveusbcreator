@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: liveusb-creator
+Version: 3.11.7
+Summary: This tool installs a LiveCD ISO on to a USB stick
+Home-page: https://fedorahosted.org/liveusb-creator
+Author: Luke Macken
+Author-email: lmacken@redhat.com
+License: GNU General Public License (GPL)
+Description: The liveusb-creator is a cross-platform tool for easily installing live operating systems on to USB flash drives
+Platform: Linux
