@@ -1,8 +1,11 @@
 :: Generate a new Windows liveusb-creator release
-:: Usage: `release 3.0.1`
+:: Usage: "release 3.0.1"
 :: Author: Luke Macken <lmacken@redhat.com>
-@echo off
-echo Generating an exe of the liveusb-creator %1
+
+:: Edit by: Alexandre Teles
+:: For use on: Ekaaty Linux
+
+echo Gerando um exe do ekaaty liveusb-creator versao %1
 rmdir /S /Q dist
 rmdir /S /Q build
 rmdir /S /Q liveusb-creator-%1
@@ -18,8 +21,10 @@ cd ..
 python -OO setup.py py2exe
 
 copy README.txt dist
-copy data\fedora.ico dist\liveusb-creator.ico
+copy data\liveusb-creator.ico dist\liveusb-creator.ico
 copy data\vcredist_x86.exe dist\
 copy data\liveusb-creator.nsi dist\liveusb-creator.nsi
 "C:\Program Files\NSIS\makensis.exe" dist\liveusb-creator.nsi
-rename dist liveusb-creator-%1
+rename dist ekaaty-liveusb-creator-%1
+
+echo Encerrando execucao...

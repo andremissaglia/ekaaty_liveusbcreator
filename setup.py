@@ -54,7 +54,7 @@ if sys.platform == 'win32':
         windows = [
             {
                 "script" : "liveusb-creator",
-                "icon_resources" : [(0, "data/fedora.ico")],
+                "icon_resources" : [(0, "data/liveusb-creator.ico")],
             }
         ],
         options={
