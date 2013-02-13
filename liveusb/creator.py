@@ -32,6 +32,7 @@ import shutil
 import time
 import os
 import re
+import sys
 
 from StringIO import StringIO
 from datetime import datetime
@@ -181,7 +182,7 @@ class LiveUSBCreator(object):
         """
         self.log.debug(cmd)
         if isinstance(cmd, unicode):
-            cmd = cmd.encode('utf-8', 'replace')
+            cmd = cmd.encode(sys.getfilesystemencoding(), 'replace')
         self.output.write(cmd)
         proc = subprocess.Popen(cmd, stdout=subprocess.PIPE,
                                 stderr=subprocess.PIPE, stdin=subprocess.PIPE,
@@ -857,8 +858,7 @@ class LinuxLiveUSBCreator(LiveUSBCreator):
     def _get_mbr_bin(self):
         mbr = None
         for mbr_bin in ('/usr/lib/syslinux/mbr.bin',
-                        '/usr/share/syslinux/mbr.bin',
-                        '/usr/share/syslinux/gptmbr.bin'):
+                        '/usr/share/syslinux/mbr.bin'):
             if os.path.exists(mbr_bin):
                 mbr = mbr_bin
         return mbr

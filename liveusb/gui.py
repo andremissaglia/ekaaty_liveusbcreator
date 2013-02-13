@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright © 2008-2010  Red Hat, Inc. All rights reserved.
-# Copyright © 2008-2010  Luke Macken <lmacken@redhat.com>
+# Copyright © 2008-2013  Red Hat, Inc. All rights reserved.
+# Copyright © 2008-2013  Luke Macken <lmacken@redhat.com>
 # Copyright © 2008  Kushal Das <kushal@fedoraproject.org>
 #
 # This copyrighted material is made available to anyone wishing to use, modify,
@@ -34,7 +34,7 @@ from datetime import datetime
 from PyQt4 import QtCore, QtGui
 
 from liveusb import LiveUSBCreator, LiveUSBError, LiveUSBInterface, _
-from liveusb.releases import releases
+from liveusb.releases import releases, get_fedora_releases
 if sys.platform == 'win32':
     from liveusb.urlgrabber.grabber import URLGrabber, URLGrabError
     from liveusb.urlgrabber.progress import BaseMeter
@@ -52,7 +52,7 @@ except:
 class LiveUSBApp(QtGui.QApplication):
     """ Main application class """
     def __init__(self, opts, args):
-        QtGui.QApplication.__init__(self, args) 
+        QtGui.QApplication.__init__(self, args)
         self.mywindow = LiveUSBDialog(opts, args)
         self.mywindow.show()
         try:
@@ -118,7 +118,7 @@ class DownloadProgress(QtCore.QObject, BaseMeter):
 class ProgressThread(QtCore.QThread):
     """ A thread that monitors the progress of Live USB creation.
 
-    This thread periodically checks the amount of free space left on the 
+    This thread periodically checks the amount of free space left on the
     given drive and sends a signal to our main dialog window to update the
     progress bar.
     """
@@ -182,7 +182,7 @@ class LiveUSBThread(QtCore.QThread):
 
             self.live.verify_filesystem()
             if not self.live.drive['uuid'] and not self.live.label:
-                self.status(_("Error: Cannot set the label or obtain " 
+                self.status(_("Error: Cannot set the label or obtain "
                               "the UUID of your device.  Unable to continue."))
                 self.live.log.removeHandler(handler)
                 return
@@ -262,6 +262,7 @@ class LiveUSBDialog(QtGui.QDialog, LiveUSBInterface):
         self.in_process = False
         QtGui.QDialog.__init__(self)
         LiveUSBInterface.__init__(self)
+        self.setWindowFlags(QtCore.Qt.WindowCloseButtonHint)
         self.opts = opts
         self.args = args
         self.setupUi(self)
@@ -325,7 +326,16 @@ class LiveUSBDialog(QtGui.QDialog, LiveUSBInterface):
         for release in [release['name'] for release in releases]:
             self.downloadCombo.addItem(release)
 
+    def refresh_releases(self):
+        self.live.log.info(_('Refreshing releases...'))
+        fedora_releases = get_fedora_releases()
+        self.downloadCombo.clear()
+        for release in [release['name'] for release in fedora_releases]:
+            self.downloadCombo.addItem(release)
+        self.live.log.info(_('Releases updated!'))
+
     def connect_slots(self):
+        self.connect(self, QtCore.SIGNAL('triggered()'), self.terminate)
         self.connect(self.isoBttn, QtCore.SIGNAL("clicked()"), self.selectfile)
         self.connect(self.startButton, QtCore.SIGNAL("clicked()"), self.begin)
         self.connect(self.overlaySlider, QtCore.SIGNAL("valueChanged(int)"),
@@ -351,6 +361,9 @@ class LiveUSBDialog(QtGui.QDialog, LiveUSBInterface):
         if hasattr(self, 'refreshDevicesButton'):
             self.connect(self.refreshDevicesButton, QtCore.SIGNAL("clicked()"),
                          self.populate_devices)
+        if hasattr(self, 'refreshReleasesButton'):
+            self.connect(self.refreshReleasesButton, QtCore.SIGNAL("clicked()"),
+                         self.refresh_releases)
 
         # If we have access to HAL & DBus, intercept some useful signals
         if hasattr(self.live, 'udisks'):
@@ -438,6 +451,8 @@ class LiveUSBDialog(QtGui.QDialog, LiveUSBInterface):
         self.downloadCombo.setEnabled(enabled)
         if hasattr(self, 'refreshDevicesButton'):
             self.refreshDevicesButton.setEnabled(enabled)
+        if hasattr(self, 'refreshReleasesButton'):
+            self.refreshReleasesButton.setEnabled(enabled)
         self.in_process = not enabled
 
     def overlay_value(self, value):
@@ -506,7 +521,7 @@ class LiveUSBDialog(QtGui.QDialog, LiveUSBInterface):
                 return
             else:
                 # The user has confirmed that they wish to overwrite their
-                # existing Live OS.  Here we delete it first, in order to 
+                # existing Live OS.  Here we delete it first, in order to
                 # accurately calculate progress.
                 self.confirmed = False
                 try:
@@ -566,7 +581,7 @@ class LiveUSBDialog(QtGui.QDialog, LiveUSBInterface):
                               "You may have better luck if you move your ISO "
                               "to the root of your drive (ie: C:\)"))
 
-            self.live.log.info('%s ' % os.path.basename(self.live.iso) + 
+            self.live.log.info('%s ' % os.path.basename(self.live.iso) +
                                _("selected"))
             self._refresh_overlay_slider()
 

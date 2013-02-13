@@ -18,7 +18,12 @@
 #
 # Author(s): Luke Macken <lmacken@redhat.com>
 
-__version__ = '3.11.7'
+import os
+import sys
+
+from liveusb import _
+
+__version__ = '3.11.8'
 
 def parse_args():
     from optparse import OptionParser
@@ -78,7 +83,6 @@ def main():
         x = raw_input("\nDone!  Press any key to exit")
     else:
         ## Start our graphical interface
-        import sys
         from liveusb.gui import LiveUSBApp
         try:
             LiveUSBApp(opts, sys.argv)
@@ -86,4 +90,8 @@ def main():
             pass
 
 if __name__ == '__main__':
+    if sys.platform != 'win32':
+        if os.getuid() != 0:
+            print >> sys.stderr, _("You must run this application as root")
+            sys.exit(1)
     main()
