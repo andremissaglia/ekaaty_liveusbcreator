@@ -1,6 +1,7 @@
 :: Generate a new Windows liveusb-creator release
 :: Usage: `release 3.0.1`
 :: Author: Luke Macken <lmacken@redhat.com>
+@echo off
 echo Generating an exe of the liveusb-creator %1
 rmdir /S /Q dist
 rmdir /S /Q build
