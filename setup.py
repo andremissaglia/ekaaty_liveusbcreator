@@ -1,3 +1,5 @@
+# editado com as informações do ekaaty
+
 from distutils.core import setup
 import sys, os
 
@@ -40,17 +42,17 @@ if sys.platform == 'win32':
     LOCALE_DIR = 'locale'
 
     setup(
-        name = 'liveusb-creator',
+        name = 'ekaaty liveusb-creator',
         version = VERSION,
         packages = ['liveusb', 'liveusb/urlgrabber'],
         scripts = ['liveusb-creator'], 
         license = 'GNU General Public License (GPL)',
-        url = 'https://fedorahosted.org/liveusb-creator',
+        url = '',
         description = 'This tool installs a LiveCD ISO on to a USB stick',
-        long_description = 'The liveusb-creator is a cross-platform tool for easily installing live operating systems on to USB flash drives',
+        long_description = 'The ekaaty liveusb-creator is a cross-platform tool for easily installing live operating systems on to USB flash drives. Based on original fedora liveusb-creator.',
         platforms = ['Windows'], 
-        maintainer = 'Luke Macken',
-        maintainer_email = 'lmacken@redhat.com',
+        maintainer = 'Alexandre Teles',
+        maintainer_email = 'ateles.1@gmail.com',
         windows = [
             {
                 "script" : "liveusb-creator",
@@ -88,10 +90,10 @@ else:
         license = 'GNU General Public License (GPL)',
         url = 'https://fedorahosted.org/liveusb-creator',
         description = 'This tool installs a LiveCD ISO on to a USB stick',
-        long_description = 'The liveusb-creator is a cross-platform tool for easily installing live operating systems on to USB flash drives',
+        long_description = 'The ekaaty liveusb-creator is a cross-platform tool for easily installing live operating systems on to USB flash drives. Based on original fedora liveusb-creator.',
         platforms = ['Linux'],
-        maintainer = 'Luke Macken',
-        maintainer_email = 'lmacken@redhat.com',
+        maintainer = 'Alexandre Teles',
+        maintainer_email = 'ateles.1@gmail.com',
         data_files = [("/usr/share/applications",["data/liveusb-creator.desktop"]), 
                       ('/usr/share/pixmaps',["data/fedorausb.png"]),
                       ] + [(os.path.join(LOCALE_DIR, locale),
