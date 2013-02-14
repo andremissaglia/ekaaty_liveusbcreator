@@ -1,0 +1,498 @@
+Gerando um exe do ekaaty liveusb-creator versao 2.0
+running py2exe
+running build_py
+creating build
+creating build\lib
+creating build\lib\liveusb
+copying liveusb\creator.py -> build\lib\liveusb
+copying liveusb\gui.py -> build\lib\liveusb
+copying liveusb\linux_dialog.py -> build\lib\liveusb
+copying liveusb\olpc.py -> build\lib\liveusb
+copying liveusb\releases.py -> build\lib\liveusb
+copying liveusb\resources_rc.py -> build\lib\liveusb
+copying liveusb\windows_dialog.py -> build\lib\liveusb
+copying liveusb\__init__.py -> build\lib\liveusb
+creating build\lib\liveusb\urlgrabber
+copying liveusb/urlgrabber\byterange.py -> build\lib\liveusb/urlgrabber
+copying liveusb/urlgrabber\grabber.py -> build\lib\liveusb/urlgrabber
+copying liveusb/urlgrabber\keepalive.py -> build\lib\liveusb/urlgrabber
+copying liveusb/urlgrabber\mirror.py -> build\lib\liveusb/urlgrabber
+copying liveusb/urlgrabber\progress.py -> build\lib\liveusb/urlgrabber
+copying liveusb/urlgrabber\__init__.py -> build\lib\liveusb/urlgrabber
+running build_scripts
+creating build\scripts-2.7
+copying and adjusting liveusb-creator -> build\scripts-2.7
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\temp
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist
+*** searching for required modules ***
+*** parsing results ***
+*** finding dlls needed ***
+*** create binaries ***
+*** byte compile python files ***
+writing byte-compilation script 'c:\docume~1\xpmuser\config~1\temp\tmpy6cobr.py'
+C:\Python27\python.exe c:\docume~1\xpmuser\config~1\temp\tmpy6cobr.py
+byte-compiling C:\Python27\lib\StringIO.py to StringIO.pyc
+byte-compiling C:\Python27\lib\UserDict.py to UserDict.pyc
+byte-compiling C:\Python27\lib\_LWPCookieJar.py to _LWPCookieJar.pyc
+byte-compiling C:\Python27\lib\_MozillaCookieJar.py to _MozillaCookieJar.pyc
+byte-compiling C:\Python27\lib\__future__.py to __future__.pyc
+byte-compiling C:\Python27\lib\_abcoll.py to _abcoll.pyc
+byte-compiling C:\Python27\lib\_strptime.py to _strptime.pyc
+byte-compiling C:\Python27\lib\_threading_local.py to _threading_local.pyc
+byte-compiling C:\Python27\lib\_weakrefset.py to _weakrefset.pyc
+byte-compiling C:\Python27\lib\abc.py to abc.pyc
+byte-compiling C:\Python27\lib\atexit.py to atexit.pyc
+byte-compiling C:\Python27\lib\base64.py to base64.pyc
+byte-compiling C:\Python27\lib\bdb.py to bdb.pyc
+byte-compiling C:\Python27\lib\bisect.py to bisect.pyc
+byte-compiling C:\Python27\lib\calendar.py to calendar.pyc
+byte-compiling C:\Python27\lib\cmd.py to cmd.pyc
+byte-compiling C:\Python27\lib\codecs.py to codecs.pyc
+byte-compiling C:\Python27\lib\collections.py to collections.pyc
+byte-compiling C:\Python27\lib\cookielib.py to cookielib.pyc
+byte-compiling C:\Python27\lib\copy.py to copy.pyc
+byte-compiling C:\Python27\lib\copy_reg.py to copy_reg.pyc
+byte-compiling C:\Python27\lib\difflib.py to difflib.pyc
+byte-compiling C:\Python27\lib\dis.py to dis.pyc
+byte-compiling C:\Python27\lib\distutils\__init__.py to distutils\__init__.pyc
+byte-compiling C:\Python27\lib\distutils\errors.py to distutils\errors.pyc
+byte-compiling C:\Python27\lib\distutils\log.py to distutils\log.pyc
+byte-compiling C:\Python27\lib\distutils\spawn.py to distutils\spawn.pyc
+byte-compiling C:\Python27\lib\distutils\sysconfig.py to distutils\sysconfig.pyc
+byte-compiling C:\Python27\lib\distutils\text_file.py to distutils\text_file.pyc
+byte-compiling C:\Python27\lib\doctest.py to doctest.pyc
+byte-compiling C:\Python27\lib\dummy_thread.py to dummy_thread.pyc
+byte-compiling C:\Python27\lib\dummy_threading.py to dummy_threading.pyc
+byte-compiling C:\Python27\lib\email\__init__.py to email\__init__.pyc
+byte-compiling C:\Python27\lib\email\_parseaddr.py to email\_parseaddr.pyc
+byte-compiling C:\Python27\lib\email\base64mime.py to email\base64mime.pyc
+byte-compiling C:\Python27\lib\email\charset.py to email\charset.pyc
+byte-compiling C:\Python27\lib\email\encoders.py to email\encoders.pyc
+byte-compiling C:\Python27\lib\email\errors.py to email\errors.pyc
+byte-compiling C:\Python27\lib\email\feedparser.py to email\feedparser.pyc
+byte-compiling C:\Python27\lib\email\generator.py to email\generator.pyc
+byte-compiling C:\Python27\lib\email\header.py to email\header.pyc
+byte-compiling C:\Python27\lib\email\iterators.py to email\iterators.pyc
+byte-compiling C:\Python27\lib\email\message.py to email\message.pyc
+byte-compiling C:\Python27\lib\email\mime\__init__.py to email\mime\__init__.pyc
+byte-compiling C:\Python27\lib\email\parser.py to email\parser.pyc
+byte-compiling C:\Python27\lib\email\quoprimime.py to email\quoprimime.pyc
+byte-compiling C:\Python27\lib\email\utils.py to email\utils.pyc
+byte-compiling C:\Python27\lib\encodings\__init__.py to encodings\__init__.pyc
+byte-compiling C:\Python27\lib\encodings\aliases.py to encodings\aliases.pyc
+byte-compiling C:\Python27\lib\encodings\ascii.py to encodings\ascii.pyc
+byte-compiling C:\Python27\lib\encodings\base64_codec.py to encodings\base64_codec.pyc
+byte-compiling C:\Python27\lib\encodings\big5.py to encodings\big5.pyc
+byte-compiling C:\Python27\lib\encodings\big5hkscs.py to encodings\big5hkscs.pyc
+byte-compiling C:\Python27\lib\encodings\bz2_codec.py to encodings\bz2_codec.pyc
+byte-compiling C:\Python27\lib\encodings\charmap.py to encodings\charmap.pyc
+byte-compiling C:\Python27\lib\encodings\cp037.py to encodings\cp037.pyc
+byte-compiling C:\Python27\lib\encodings\cp1006.py to encodings\cp1006.pyc
+byte-compiling C:\Python27\lib\encodings\cp1026.py to encodings\cp1026.pyc
+byte-compiling C:\Python27\lib\encodings\cp1140.py to encodings\cp1140.pyc
+byte-compiling C:\Python27\lib\encodings\cp1250.py to encodings\cp1250.pyc
+byte-compiling C:\Python27\lib\encodings\cp1251.py to encodings\cp1251.pyc
+byte-compiling C:\Python27\lib\encodings\cp1252.py to encodings\cp1252.pyc
+byte-compiling C:\Python27\lib\encodings\cp1253.py to encodings\cp1253.pyc
+byte-compiling C:\Python27\lib\encodings\cp1254.py to encodings\cp1254.pyc
+byte-compiling C:\Python27\lib\encodings\cp1255.py to encodings\cp1255.pyc
+byte-compiling C:\Python27\lib\encodings\cp1256.py to encodings\cp1256.pyc
+byte-compiling C:\Python27\lib\encodings\cp1257.py to encodings\cp1257.pyc
+byte-compiling C:\Python27\lib\encodings\cp1258.py to encodings\cp1258.pyc
+byte-compiling C:\Python27\lib\encodings\cp424.py to encodings\cp424.pyc
+byte-compiling C:\Python27\lib\encodings\cp437.py to encodings\cp437.pyc
+byte-compiling C:\Python27\lib\encodings\cp500.py to encodings\cp500.pyc
+byte-compiling C:\Python27\lib\encodings\cp720.py to encodings\cp720.pyc
+byte-compiling C:\Python27\lib\encodings\cp737.py to encodings\cp737.pyc
+byte-compiling C:\Python27\lib\encodings\cp775.py to encodings\cp775.pyc
+byte-compiling C:\Python27\lib\encodings\cp850.py to encodings\cp850.pyc
+byte-compiling C:\Python27\lib\encodings\cp852.py to encodings\cp852.pyc
+byte-compiling C:\Python27\lib\encodings\cp855.py to encodings\cp855.pyc
+byte-compiling C:\Python27\lib\encodings\cp856.py to encodings\cp856.pyc
+byte-compiling C:\Python27\lib\encodings\cp857.py to encodings\cp857.pyc
+byte-compiling C:\Python27\lib\encodings\cp858.py to encodings\cp858.pyc
+byte-compiling C:\Python27\lib\encodings\cp860.py to encodings\cp860.pyc
+byte-compiling C:\Python27\lib\encodings\cp861.py to encodings\cp861.pyc
+byte-compiling C:\Python27\lib\encodings\cp862.py to encodings\cp862.pyc
+byte-compiling C:\Python27\lib\encodings\cp863.py to encodings\cp863.pyc
+byte-compiling C:\Python27\lib\encodings\cp864.py to encodings\cp864.pyc
+byte-compiling C:\Python27\lib\encodings\cp865.py to encodings\cp865.pyc
+byte-compiling C:\Python27\lib\encodings\cp866.py to encodings\cp866.pyc
+byte-compiling C:\Python27\lib\encodings\cp869.py to encodings\cp869.pyc
+byte-compiling C:\Python27\lib\encodings\cp874.py to encodings\cp874.pyc
+byte-compiling C:\Python27\lib\encodings\cp875.py to encodings\cp875.pyc
+byte-compiling C:\Python27\lib\encodings\cp932.py to encodings\cp932.pyc
+byte-compiling C:\Python27\lib\encodings\cp949.py to encodings\cp949.pyc
+byte-compiling C:\Python27\lib\encodings\cp950.py to encodings\cp950.pyc
+byte-compiling C:\Python27\lib\encodings\euc_jis_2004.py to encodings\euc_jis_2004.pyc
+byte-compiling C:\Python27\lib\encodings\euc_jisx0213.py to encodings\euc_jisx0213.pyc
+byte-compiling C:\Python27\lib\encodings\euc_jp.py to encodings\euc_jp.pyc
+byte-compiling C:\Python27\lib\encodings\euc_kr.py to encodings\euc_kr.pyc
+byte-compiling C:\Python27\lib\encodings\gb18030.py to encodings\gb18030.pyc
+byte-compiling C:\Python27\lib\encodings\gb2312.py to encodings\gb2312.pyc
+byte-compiling C:\Python27\lib\encodings\gbk.py to encodings\gbk.pyc
+byte-compiling C:\Python27\lib\encodings\hex_codec.py to encodings\hex_codec.pyc
+byte-compiling C:\Python27\lib\encodings\hp_roman8.py to encodings\hp_roman8.pyc
+byte-compiling C:\Python27\lib\encodings\hz.py to encodings\hz.pyc
+byte-compiling C:\Python27\lib\encodings\idna.py to encodings\idna.pyc
+byte-compiling C:\Python27\lib\encodings\iso2022_jp.py to encodings\iso2022_jp.pyc
+byte-compiling C:\Python27\lib\encodings\iso2022_jp_1.py to encodings\iso2022_jp_1.pyc
+byte-compiling C:\Python27\lib\encodings\iso2022_jp_2.py to encodings\iso2022_jp_2.pyc
+byte-compiling C:\Python27\lib\encodings\iso2022_jp_2004.py to encodings\iso2022_jp_2004.pyc
+byte-compiling C:\Python27\lib\encodings\iso2022_jp_3.py to encodings\iso2022_jp_3.pyc
+byte-compiling C:\Python27\lib\encodings\iso2022_jp_ext.py to encodings\iso2022_jp_ext.pyc
+byte-compiling C:\Python27\lib\encodings\iso2022_kr.py to encodings\iso2022_kr.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_1.py to encodings\iso8859_1.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_10.py to encodings\iso8859_10.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_11.py to encodings\iso8859_11.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_13.py to encodings\iso8859_13.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_14.py to encodings\iso8859_14.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_15.py to encodings\iso8859_15.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_16.py to encodings\iso8859_16.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_2.py to encodings\iso8859_2.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_3.py to encodings\iso8859_3.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_4.py to encodings\iso8859_4.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_5.py to encodings\iso8859_5.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_6.py to encodings\iso8859_6.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_7.py to encodings\iso8859_7.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_8.py to encodings\iso8859_8.pyc
+byte-compiling C:\Python27\lib\encodings\iso8859_9.py to encodings\iso8859_9.pyc
+byte-compiling C:\Python27\lib\encodings\johab.py to encodings\johab.pyc
+byte-compiling C:\Python27\lib\encodings\koi8_r.py to encodings\koi8_r.pyc
+byte-compiling C:\Python27\lib\encodings\koi8_u.py to encodings\koi8_u.pyc
+byte-compiling C:\Python27\lib\encodings\latin_1.py to encodings\latin_1.pyc
+byte-compiling C:\Python27\lib\encodings\mac_arabic.py to encodings\mac_arabic.pyc
+byte-compiling C:\Python27\lib\encodings\mac_centeuro.py to encodings\mac_centeuro.pyc
+byte-compiling C:\Python27\lib\encodings\mac_croatian.py to encodings\mac_croatian.pyc
+byte-compiling C:\Python27\lib\encodings\mac_cyrillic.py to encodings\mac_cyrillic.pyc
+byte-compiling C:\Python27\lib\encodings\mac_farsi.py to encodings\mac_farsi.pyc
+byte-compiling C:\Python27\lib\encodings\mac_greek.py to encodings\mac_greek.pyc
+byte-compiling C:\Python27\lib\encodings\mac_iceland.py to encodings\mac_iceland.pyc
+byte-compiling C:\Python27\lib\encodings\mac_latin2.py to encodings\mac_latin2.pyc
+byte-compiling C:\Python27\lib\encodings\mac_roman.py to encodings\mac_roman.pyc
+byte-compiling C:\Python27\lib\encodings\mac_romanian.py to encodings\mac_romanian.pyc
+byte-compiling C:\Python27\lib\encodings\mac_turkish.py to encodings\mac_turkish.pyc
+byte-compiling C:\Python27\lib\encodings\mbcs.py to encodings\mbcs.pyc
+byte-compiling C:\Python27\lib\encodings\palmos.py to encodings\palmos.pyc
+byte-compiling C:\Python27\lib\encodings\ptcp154.py to encodings\ptcp154.pyc
+byte-compiling C:\Python27\lib\encodings\punycode.py to encodings\punycode.pyc
+byte-compiling C:\Python27\lib\encodings\quopri_codec.py to encodings\quopri_codec.pyc
+byte-compiling C:\Python27\lib\encodings\raw_unicode_escape.py to encodings\raw_unicode_escape.pyc
+byte-compiling C:\Python27\lib\encodings\rot_13.py to encodings\rot_13.pyc
+byte-compiling C:\Python27\lib\encodings\shift_jis.py to encodings\shift_jis.pyc
+byte-compiling C:\Python27\lib\encodings\shift_jis_2004.py to encodings\shift_jis_2004.pyc
+byte-compiling C:\Python27\lib\encodings\shift_jisx0213.py to encodings\shift_jisx0213.pyc
+byte-compiling C:\Python27\lib\encodings\string_escape.py to encodings\string_escape.pyc
+byte-compiling C:\Python27\lib\encodings\tis_620.py to encodings\tis_620.pyc
+byte-compiling C:\Python27\lib\encodings\undefined.py to encodings\undefined.pyc
+byte-compiling C:\Python27\lib\encodings\unicode_escape.py to encodings\unicode_escape.pyc
+byte-compiling C:\Python27\lib\encodings\unicode_internal.py to encodings\unicode_internal.pyc
+byte-compiling C:\Python27\lib\encodings\utf_16.py to encodings\utf_16.pyc
+byte-compiling C:\Python27\lib\encodings\utf_16_be.py to encodings\utf_16_be.pyc
+byte-compiling C:\Python27\lib\encodings\utf_16_le.py to encodings\utf_16_le.pyc
+byte-compiling C:\Python27\lib\encodings\utf_32.py to encodings\utf_32.pyc
+byte-compiling C:\Python27\lib\encodings\utf_32_be.py to encodings\utf_32_be.pyc
+byte-compiling C:\Python27\lib\encodings\utf_32_le.py to encodings\utf_32_le.pyc
+byte-compiling C:\Python27\lib\encodings\utf_7.py to encodings\utf_7.pyc
+byte-compiling C:\Python27\lib\encodings\utf_8.py to encodings\utf_8.pyc
+byte-compiling C:\Python27\lib\encodings\utf_8_sig.py to encodings\utf_8_sig.pyc
+byte-compiling C:\Python27\lib\encodings\uu_codec.py to encodings\uu_codec.pyc
+byte-compiling C:\Python27\lib\encodings\zlib_codec.py to encodings\zlib_codec.pyc
+byte-compiling C:\Python27\lib\fnmatch.py to fnmatch.pyc
+byte-compiling C:\Python27\lib\ftplib.py to ftplib.pyc
+byte-compiling C:\Python27\lib\functools.py to functools.pyc
+byte-compiling C:\Python27\lib\genericpath.py to genericpath.pyc
+byte-compiling C:\Python27\lib\getopt.py to getopt.pyc
+byte-compiling C:\Python27\lib\getpass.py to getpass.pyc
+byte-compiling C:\Python27\lib\gettext.py to gettext.pyc
+byte-compiling C:\Python27\lib\glob.py to glob.pyc
+byte-compiling C:\Python27\lib\gzip.py to gzip.pyc
+byte-compiling C:\Python27\lib\hashlib.py to hashlib.pyc
+byte-compiling C:\Python27\lib\heapq.py to heapq.pyc
+byte-compiling C:\Python27\lib\httplib.py to httplib.pyc
+byte-compiling C:\Python27\lib\inspect.py to inspect.pyc
+byte-compiling C:\Python27\lib\io.py to io.pyc
+byte-compiling C:\Python27\lib\keyword.py to keyword.pyc
+byte-compiling C:\Python27\lib\linecache.py to linecache.pyc
+byte-compiling C:\Python27\lib\locale.py to locale.pyc
+byte-compiling C:\Python27\lib\logging\__init__.py to logging\__init__.pyc
+byte-compiling C:\Python27\lib\md5.py to md5.pyc
+byte-compiling C:\Python27\lib\mimetools.py to mimetools.pyc
+byte-compiling C:\Python27\lib\mimetypes.py to mimetypes.pyc
+byte-compiling C:\Python27\lib\ntpath.py to ntpath.pyc
+byte-compiling C:\Python27\lib\nturl2path.py to nturl2path.pyc
+byte-compiling C:\Python27\lib\opcode.py to opcode.pyc
+byte-compiling C:\Python27\lib\optparse.py to optparse.pyc
+byte-compiling C:\Python27\lib\os.py to os.pyc
+byte-compiling C:\Python27\lib\os2emxpath.py to os2emxpath.pyc
+byte-compiling C:\Python27\lib\pdb.py to pdb.pyc
+byte-compiling C:\Python27\lib\pickle.py to pickle.pyc
+byte-compiling C:\Python27\lib\posixpath.py to posixpath.pyc
+byte-compiling C:\Python27\lib\pprint.py to pprint.pyc
+byte-compiling C:\Python27\lib\py_compile.py to py_compile.pyc
+byte-compiling C:\Python27\lib\quopri.py to quopri.pyc
+byte-compiling C:\Python27\lib\random.py to random.pyc
+byte-compiling C:\Python27\lib\re.py to re.pyc
+byte-compiling C:\Python27\lib\repr.py to repr.pyc
+byte-compiling C:\Python27\lib\rfc822.py to rfc822.pyc
+byte-compiling C:\Python27\lib\shlex.py to shlex.pyc
+byte-compiling C:\Python27\lib\shutil.py to shutil.pyc
+byte-compiling C:\Python27\lib\site-packages\PyQt4\__init__.py to PyQt4\__init__.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\__init__.py to pywin\__init__.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\dialogs\__init__.py to pywin\dialogs\__init__.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\dialogs\list.py to pywin\dialogs\list.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\dialogs\status.py to pywin\dialogs\status.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\mfc\__init__.py to pywin\mfc\__init__.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\mfc\dialog.py to pywin\mfc\dialog.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\mfc\object.py to pywin\mfc\object.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\mfc\thread.py to pywin\mfc\thread.pyc
+byte-compiling C:\Python27\lib\site-packages\Pythonwin\pywin\mfc\window.py to pywin\mfc\window.pyc
+byte-compiling C:\Python27\lib\site-packages\win32\lib\commctrl.py to commctrl.pyc
+byte-compiling C:\Python27\lib\site-packages\win32\lib\win32con.py to win32con.pyc
+byte-compiling C:\Python27\lib\site-packages\win32\lib\winerror.py to winerror.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\__init__.py to win32com\__init__.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\CLSIDToClass.py to win32com\client\CLSIDToClass.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\__init__.py to win32com\client\__init__.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\build.py to win32com\client\build.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\dynamic.py to win32com\client\dynamic.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\gencache.py to win32com\client\gencache.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\genpy.py to win32com\client\genpy.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\makepy.py to win32com\client\makepy.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\selecttlb.py to win32com\client\selecttlb.pyc
+byte-compiling C:\Python27\lib\site-packages\win32com\client\util.py to win32com\client\util.pyc
+byte-compiling C:\Python27\lib\site-packages\win32comext\shell\__init__.py to win32com\shell\__init__.pyc
+byte-compiling C:\Python27\lib\site-packages\zipextimporter.py to zipextimporter.pyc
+byte-compiling C:\Python27\lib\socket.py to socket.pyc
+byte-compiling C:\Python27\lib\sre.py to sre.pyc
+byte-compiling C:\Python27\lib\sre_compile.py to sre_compile.pyc
+byte-compiling C:\Python27\lib\sre_constants.py to sre_constants.pyc
+byte-compiling C:\Python27\lib\sre_parse.py to sre_parse.pyc
+byte-compiling C:\Python27\lib\ssl.py to ssl.pyc
+byte-compiling C:\Python27\lib\stat.py to stat.pyc
+byte-compiling C:\Python27\lib\statvfs.py to statvfs.pyc
+byte-compiling C:\Python27\lib\string.py to string.pyc
+byte-compiling C:\Python27\lib\stringprep.py to stringprep.pyc
+byte-compiling C:\Python27\lib\struct.py to struct.pyc
+byte-compiling C:\Python27\lib\subprocess.py to subprocess.pyc
+byte-compiling C:\Python27\lib\tarfile.py to tarfile.pyc
+byte-compiling C:\Python27\lib\tempfile.py to tempfile.pyc
+byte-compiling C:\Python27\lib\textwrap.py to textwrap.pyc
+byte-compiling C:\Python27\lib\threading.py to threading.pyc
+byte-compiling C:\Python27\lib\token.py to token.pyc
+byte-compiling C:\Python27\lib\tokenize.py to tokenize.pyc
+byte-compiling C:\Python27\lib\traceback.py to traceback.pyc
+byte-compiling C:\Python27\lib\types.py to types.pyc
+byte-compiling C:\Python27\lib\unittest\__init__.py to unittest\__init__.pyc
+byte-compiling C:\Python27\lib\unittest\case.py to unittest\case.pyc
+byte-compiling C:\Python27\lib\unittest\loader.py to unittest\loader.pyc
+byte-compiling C:\Python27\lib\unittest\main.py to unittest\main.pyc
+byte-compiling C:\Python27\lib\unittest\result.py to unittest\result.pyc
+byte-compiling C:\Python27\lib\unittest\runner.py to unittest\runner.pyc
+byte-compiling C:\Python27\lib\unittest\signals.py to unittest\signals.pyc
+byte-compiling C:\Python27\lib\unittest\suite.py to unittest\suite.pyc
+byte-compiling C:\Python27\lib\unittest\util.py to unittest\util.pyc
+byte-compiling C:\Python27\lib\urllib.py to urllib.pyc
+byte-compiling C:\Python27\lib\urllib2.py to urllib2.pyc
+byte-compiling C:\Python27\lib\urlparse.py to urlparse.pyc
+byte-compiling C:\Python27\lib\uu.py to uu.pyc
+byte-compiling C:\Python27\lib\warnings.py to warnings.pyc
+byte-compiling C:\Python27\lib\weakref.py to weakref.pyc
+byte-compiling C:\Python27\lib\zipfile.py to zipfile.pyc
+byte-compiling build\lib\liveusb\__init__.py to liveusb\__init__.pyc
+byte-compiling build\lib\liveusb\creator.py to liveusb\creator.pyc
+byte-compiling build\lib\liveusb\gui.py to liveusb\gui.pyc
+byte-compiling build\lib\liveusb\linux_dialog.py to liveusb\linux_dialog.pyc
+byte-compiling build\lib\liveusb\olpc.py to liveusb\olpc.pyc
+byte-compiling build\lib\liveusb\releases.py to liveusb\releases.pyc
+byte-compiling build\lib\liveusb\resources_rc.py to liveusb\resources_rc.pyc
+byte-compiling build\lib\liveusb\urlgrabber\__init__.py to liveusb\urlgrabber\__init__.pyc
+byte-compiling build\lib\liveusb\urlgrabber\byterange.py to liveusb\urlgrabber\byterange.pyc
+byte-compiling build\lib\liveusb\urlgrabber\grabber.py to liveusb\urlgrabber\grabber.pyc
+byte-compiling build\lib\liveusb\urlgrabber\keepalive.py to liveusb\urlgrabber\keepalive.pyc
+byte-compiling build\lib\liveusb\urlgrabber\progress.py to liveusb\urlgrabber\progress.pyc
+byte-compiling build\lib\liveusb\windows_dialog.py to liveusb\windows_dialog.pyc
+removing c:\docume~1\xpmuser\config~1\temp\tmpy6cobr.py
+*** copy extensions ***
+copying C:\Python27\DLLs\_hashlib.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\_socket.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\_ssl.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\bz2.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\select.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\unicodedata.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\PyQt4\QtCore.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\PyQt4
+copying C:\Python27\lib\site-packages\PyQt4\QtGui.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\PyQt4
+copying C:\Python27\lib\site-packages\Pythonwin\win32ui.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\sip.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\_win32sysloader.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\win32api.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\win32file.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\win32process.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32comext\shell\shell.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\win32com\shell
+*** copy dlls ***
+copying C:\WINDOWS\system32\pywintypes27.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\WINDOWS\system32\python27.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7
+setting sys.winver for 'K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7\python27.dll' to 'liveusb-creator'
+copying C:\Python27\w9xpopen.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist
+copying C:\Python27\lib\site-packages\PyQt4\QtCore4.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\PyQt4\QtGui4.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\WINDOWS\system32\pythoncom27.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+*** copy data files ***
+copying LICENSE.txt -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\dd.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\syslinux.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\7z.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\7z.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\7-Zip-License.txt -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ar
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ar\LC_MESSAGES
+copying po\locale\ar\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ar\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ast
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ast\LC_MESSAGES
+copying po\locale\ast\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ast\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN\LC_MESSAGES
+copying po\locale\bn_IN\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bs
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bs\LC_MESSAGES
+copying po\locale\bs\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bs\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ca
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ca\LC_MESSAGES
+copying po\locale\ca\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ca\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\cs
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\cs\LC_MESSAGES
+copying po\locale\cs\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\cs\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\da
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\da\LC_MESSAGES
+copying po\locale\da\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\da\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\de
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\de\LC_MESSAGES
+copying po\locale\de\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\de\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\el
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\el\LC_MESSAGES
+copying po\locale\el\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\el\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB\LC_MESSAGES
+copying po\locale\en_GB\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\es
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\es\LC_MESSAGES
+copying po\locale\es\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\es\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fa
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fa\LC_MESSAGES
+copying po\locale\fa\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fa\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fi
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fi\LC_MESSAGES
+copying po\locale\fi\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fi\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fr
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fr\LC_MESSAGES
+copying po\locale\fr\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fr\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\he
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\he\LC_MESSAGES
+copying po\locale\he\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\he\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\hu
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\hu\LC_MESSAGES
+copying po\locale\hu\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\hu\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\id
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\id\LC_MESSAGES
+copying po\locale\id\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\id\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\is
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\is\LC_MESSAGES
+copying po\locale\is\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\is\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\it
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\it\LC_MESSAGES
+copying po\locale\it\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\it\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ja
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ja\LC_MESSAGES
+copying po\locale\ja\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ja\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ko
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ko\LC_MESSAGES
+copying po\locale\ko\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ko\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ms
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ms\LC_MESSAGES
+copying po\locale\ms\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ms\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nb
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nb\LC_MESSAGES
+copying po\locale\nb\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nb\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nds
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nds\LC_MESSAGES
+copying po\locale\nds\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nds\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nl
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nl\LC_MESSAGES
+copying po\locale\nl\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nl\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pa
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pa\LC_MESSAGES
+copying po\locale\pa\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pa\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pl
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pl\LC_MESSAGES
+copying po\locale\pl\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pl\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt\LC_MESSAGES
+copying po\locale\pt\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR\LC_MESSAGES
+copying po\locale\pt_BR\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ru
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ru\LC_MESSAGES
+copying po\locale\ru\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ru\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sk
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sk\LC_MESSAGES
+copying po\locale\sk\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sk\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr\LC_MESSAGES
+copying po\locale\sr\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin\LC_MESSAGES
+copying po\locale\sr@latin\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sv
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sv\LC_MESSAGES
+copying po\locale\sv\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sv\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\th
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\th\LC_MESSAGES
+copying po\locale\th\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\th\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\uk
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\uk\LC_MESSAGES
+copying po\locale\uk\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\uk\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN\LC_MESSAGES
+copying po\locale\zh_CN\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN\LC_MESSAGES
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW
+creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW\LC_MESSAGES
+copying po\locale\zh_TW\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW\LC_MESSAGES
+copying C:\Python27\lib\site-packages\py2exe\run_w.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\liveusb-creator.exe
+Adding python27.dll as resource to K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\liveusb-creator.exe
+The following modules appear to be missing
+['_scproxy', 'dbus', 'dbus.mainloop.qt', 'gettext_windows', 'i18n', 'parted', 'urlgrabber.urlread', 'win32com.gen_py']
+
+*** binary dependencies ***
+Your executable(s) also depend on these dlls which are not included,
+you may or may not need to distribute them.
+
+Make sure you have the license if you distribute any of them, and
+make sure you don't distribute files belonging to the operating system.
+
+   ole32.dll - C:\WINDOWS\system32\ole32.dll
+   OLEAUT32.dll - C:\WINDOWS\system32\OLEAUT32.dll
+   USER32.dll - C:\WINDOWS\system32\USER32.dll
+   IMM32.dll - C:\WINDOWS\system32\IMM32.dll
+   SHELL32.dll - C:\WINDOWS\system32\SHELL32.dll
+   MSWSOCK.dll - C:\WINDOWS\system32\MSWSOCK.dll
+   WINMM.dll - C:\WINDOWS\system32\WINMM.dll
+   COMDLG32.dll - C:\WINDOWS\system32\COMDLG32.dll
+   ADVAPI32.dll - C:\WINDOWS\system32\ADVAPI32.dll
+   mfc90.dll - C:\Python27\lib\site-packages\Pythonwin\mfc90.dll
+   WS2_32.dll - C:\WINDOWS\system32\WS2_32.dll
+   WINSPOOL.DRV - C:\WINDOWS\system32\WINSPOOL.DRV
+   GDI32.dll - C:\WINDOWS\system32\GDI32.dll
+   VERSION.dll - C:\WINDOWS\system32\VERSION.dll
+   KERNEL32.dll - C:\WINDOWS\system32\KERNEL32.dll
+   MSVCP90.dll - C:\WINDOWS\system32\MSVCP90.dll
+        1 arquivo(s) copiado(s).
+        1 arquivo(s) copiado(s).
+        1 arquivo(s) copiado(s).
+        1 arquivo(s) copiado(s).
+Encerrando execucao...
