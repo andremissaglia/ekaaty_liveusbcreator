@@ -1,15 +1,16 @@
-Name "LiveUSB Creator 3.11.7"
-OutFile "liveusb-creator-3.11.7-setup.exe"
+Name "Ekaaty LiveUSB Creator Install"
+OutFile "ekaaty-liveusb-creator-setup.exe"
 
 !include "MUI2.nsh"
 XPStyle on
 
-SetCompressor lzma
+SetCompressor /SOLID lzma
+SetCompressorDictSize 52
 
-InstallDir "$PROGRAMFILES\LiveUSB Creator"
-InstallDirRegKey HKEY_LOCAL_MACHINE "SOFTWARE\LiveUSB Creator" ""
+InstallDir "$PROGRAMFILES\Ekaaty LiveUSB Creator"
+InstallDirRegKey HKEY_LOCAL_MACHINE "SOFTWARE\Ekaaty LiveUSB Creator" ""
 
-DirText "Select the directory to install LiveUSB Creator in:"
+DirText "Select the directory to install Ekaaty LiveUSB Creator in:"
 
 !define MUI_ICON liveusb-creator.ico
 ;!define MUI_UNICON liveusb-creator.ico
@@ -18,7 +19,7 @@ DirText "Select the directory to install LiveUSB Creator in:"
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
 !define MUI_FINISHPAGE_NOAUTOCLOSE
-!define MUI_FINISHPAGE_RUN $INSTDIR\liveusb-creator.exe
+!define MUI_FINISHPAGE_RUN $INSTDIR\ekaaty-liveusb-creator.exe
 !insertmacro MUI_PAGE_FINISH
 
 !insertmacro MUI_UNPAGE_CONFIRM
@@ -96,7 +97,7 @@ Section ""
 	vcredist_install_finished:
 	Delete "$INSTDIR\vcredist_x86.exe"
 
-	File liveusb-creator.exe
+	File ekaaty-liveusb-creator.exe
 	File LICENSE.txt
 	File README.txt
 	File w9xpopen.exe
@@ -108,38 +109,39 @@ Section ""
 	File tools\7-Zip-License.txt
 	File tools\dd.exe
 	File tools\syslinux.exe
+	File tools\mfc90.dll
 	
 	; Create shortcut.
 	SetOutPath -
-	CreateDirectory "$SMPROGRAMS\LiveUSB Creator"
-	CreateShortCut "$SMPROGRAMS\LiveUSB Creator\LiveUSB Creator.lnk" "$INSTDIR\liveusb-creator.exe"
-	CreateShortCut "$SMPROGRAMS\LiveUSB Creator\Uninstall LiveUSB Creator.lnk" "$INSTDIR\uninst.exe" "" "$INSTDIR\uninst.exe" 0
+	CreateDirectory "$SMPROGRAMS\Ekaaty LiveUSB Creator"
+	CreateShortCut "$SMPROGRAMS\Ekaaty LiveUSB Creator\Ekaaty LiveUSB Creator.lnk" "$INSTDIR\ekaaty-liveusb-creator.exe"
+	CreateShortCut "$SMPROGRAMS\Ekaaty LiveUSB Creator\Uninstall Ekaaty LiveUSB Creator.lnk" "$INSTDIR\uninst.exe" "" "$INSTDIR\uninst.exe" 0
 
 	; Create uninstaller.
-	WriteRegStr HKEY_LOCAL_MACHINE "SOFTWARE\LiveUSB Creator" "" "$INSTDIR"
-	WriteRegStr HKEY_LOCAL_MACHINE "Software\Microsoft\Windows\CurrentVersion\Uninstall\LiveUSB Creator" "DisplayName" "LiveUSB Creator (remove only)"
-	WriteRegStr HKEY_LOCAL_MACHINE "Software\Microsoft\Windows\CurrentVersion\Uninstall\LiveUSB Creator" "UninstallString" '"$INSTDIR\uninst.exe"'
+	WriteRegStr HKEY_LOCAL_MACHINE "SOFTWARE\Ekaaty LiveUSB Creator" "" "$INSTDIR"
+	WriteRegStr HKEY_LOCAL_MACHINE "Software\Microsoft\Windows\CurrentVersion\Uninstall\Ekaaty LiveUSB Creator" "DisplayName" "LiveUSB Creator (remove only)"
+	WriteRegStr HKEY_LOCAL_MACHINE "Software\Microsoft\Windows\CurrentVersion\Uninstall\Ekaaty LiveUSB Creator" "UninstallString" '"$INSTDIR\uninst.exe"'
 	WriteUninstaller "$INSTDIR\uninst.exe"
 
 SectionEnd
 
-UninstallText "This will uninstall LiveUSB Creator from your system."
+UninstallText "This will uninstall Ekaaty LiveUSB Creator from your system."
 
 Section Uninstall
 
 	; Delete shortcuts.
-	Delete "$SMPROGRAMS\LiveUSB Creator\LiveUSB Creator.lnk"
-	Delete "$SMPROGRAMS\LiveUSB Creator\Uninstall LiveUSB Creator.lnk"
-	RMDir "$SMPROGRAMS\LiveUSB Creator"
-	Delete "$DESKTOP\LiveUSB Creator.lnk"
+	Delete "$SMPROGRAMS\Ekaaty LiveUSB Creator\Ekaaty LiveUSB Creator.lnk"
+	Delete "$SMPROGRAMS\Ekaaty LiveUSB Creator\Uninstall Ekaaty LiveUSB Creator.lnk"
+	RMDir "$SMPROGRAMS\Ekaaty LiveUSB Creator"
+	Delete "$DESKTOP\Ekaaty LiveUSB Creator.lnk"
 
 	; Delete registry keys.
 	Delete "$INSTDIR\uninst.exe"
 	DeleteRegKey HKEY_LOCAL_MACHINE "SOFTWARE\LiveUSB Creator"
-	DeleteRegKey HKEY_LOCAL_MACHINE "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\LiveUSB Creator"
+	DeleteRegKey HKEY_LOCAL_MACHINE "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Ekaaty LiveUSB Creator"
 
 	; Delete files.
-	Delete "$INSTDIR\liveusb-creator.exe"
+	Delete "$INSTDIR\ekaaty-liveusb-creator.exe"
 	Delete "$INSTDIR\LICENSE.txt"
 	Delete "$INSTDIR\README.txt"
 	Delete "$INSTDIR\w9xpopen.exe"
@@ -149,8 +151,9 @@ Section Uninstall
 	Delete "$INSTDIR\tools\7-Zip-License.txt"
 	Delete "$INSTDIR\tools\dd.exe"
 	Delete "$INSTDIR\tools\syslinux.exe"
+	Delete "$INSTDIR\tools\mfc90.dll"
 
-	Delete "$INSTDIR\liveusb-creator.exe.log"
+	Delete "$INSTDIR\ekaaty-liveusb-creator.exe.log"
 
 	; Remove the installation directories.
 	RMDir /R "$INSTDIR\locale"

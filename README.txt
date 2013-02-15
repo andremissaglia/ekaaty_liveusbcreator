@@ -1,26 +1,26 @@
 ===============
-liveusb-creator
+ekaaty liveusb-creator
 ===============
 
 A cross-platform tool for easily installing live operating systems on to USB
-flash drives.
+flash drives. Based on original fedora liveusb-creator
 
 Using
 -----
 See the wiki for instructions on how to use the liveusb-creator:
 
-    https://fedorahosted.org/liveusb-creator
+        NOT FOR NOW - JUST WAIT
 
 Developing
 ----------
 See the Developers Guide on the wiki for details,
 
-        https://fedorahosted.org/liveusb-creator/wiki/Development
+        NOT FOR NOW - JUST WAIT
 
 License
 -------
 
-The liveusb-creator is licensed under the GPLv2.
+The ekaaty liveusb-creator and the original fedora liveusb-creator are licensed under the GPLv2.
 
 This tool is distributed with the following open source software::
 

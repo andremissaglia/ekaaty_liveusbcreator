@@ -202,8 +202,8 @@ msgid "Cannot find '%s'.  Make sure to extract the entire liveusb-creator zip fi
 msgstr "Não pode encontrar '%s'. Certifique-se de ter extraído todo o arquivo zip do liveusb-creator antes de executar esse programa."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
-msgstr "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
+msgstr "Ekaaty LiveUSB Creator"
 
 #: ../liveusb/dialog.py:124
 msgid "This button will begin the LiveUSB creation process.  This entails optionally downloading a release (if an existing one wasn't selected),  extracting the ISO to the USB device, creating the persistent overlay, and installing the bootloader."
@@ -226,8 +226,8 @@ msgid "If you do not select an existing Live CD, the selected release will be do
 msgstr "Caso você não selecione um Live CD existente, a versão selecionada será baixada para você."
 
 #: ../liveusb/dialog.py:129
-msgid "Download Fedora"
-msgstr "Baixar Fedora"
+msgid "Download Ekaaty"
+msgstr "Baixar Ekaaty"
 
 #: ../liveusb/dialog.py:130
 msgid "or"

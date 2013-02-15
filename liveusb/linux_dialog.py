@@ -122,13 +122,13 @@ class Ui_Dialog(object):
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
-        Dialog.setWindowTitle(_translate("Dialog", "Fedora LiveUSB Creator", None))
+        Dialog.setWindowTitle(_translate("Dialog", "Ekaaty LiveUSB Creator", None))
         self.startButton.setWhatsThis(_translate("Dialog", "This button will begin the LiveUSB creation process.  This entails optionally downloading a release (if an existing one wasn\'t selected),  extracting the ISO to the USB device, creating the persistent overlay, and installing the bootloader.", None))
         self.startButton.setText(_translate("Dialog", "Create Live USB", None))
         self.textEdit.setWhatsThis(_translate("Dialog", "This is the status console, where all messages get written to.", None))
         self.progressBar.setWhatsThis(_translate("Dialog", "This is the progress bar that will indicate how far along in the LiveUSB creation process you are", None))
         self.downloadGroup.setWhatsThis(_translate("Dialog", "If you do not select an existing Live CD, the selected release will be downloaded for you.", None))
-        self.downloadGroup.setTitle(_translate("Dialog", "Download Fedora", None))
+        self.downloadGroup.setTitle(_translate("Dialog", "Download Ekaaty", None))
         self.label_2.setText(_translate("Dialog", "or", None))
         self.groupBox.setWhatsThis(_translate("Dialog", "This button allows you to browse for an existing Live CD ISO that you have previously downloaded.  If you do not select one, a release will be downloaded for you automatically.", None))
         self.groupBox.setTitle(_translate("Dialog", "Use existing Live CD", None))

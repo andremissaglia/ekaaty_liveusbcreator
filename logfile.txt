@@ -1,15 +1,240 @@
-Gerando um exe do ekaaty liveusb-creator versao 2.0
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>echo Gerador de releases do ekaaty liveusb-creator 
+Gerador de releases do ekaaty liveusb-creator
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>echo O sistema esta gerando a versao 1.0 do ekaaty liveusb-creator 
+O sistema esta gerando a versao 1.0 do ekaaty liveusb-creator
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>echo Limpando diretorios 
+Limpando diretorios
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>IF EXIST dist (rmdir /S /Q dist ) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>IF EXIST build (rmdir /S /Q build ) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>IF EXIST ekaaty-liveusb-creator-1.0 (rmdir /S /Q ekaaty-liveusb-creator-1.0 ) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>echo Criando pasta de locales 
+Criando pasta de locales
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>cd po 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>IF EXIST locale (rmdir /S /Q locale ) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>for %f in (*.po) do (
+mkdir locale\%~Nf\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\%~Nf\LC_MESSAGES\liveusb-creator.mo %f 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\ar\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\ar\LC_MESSAGES\liveusb-creator.mo ar.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\ast\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\ast\LC_MESSAGES\liveusb-creator.mo ast.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\bn_IN\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\bn_IN\LC_MESSAGES\liveusb-creator.mo bn_IN.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\bs\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\bs\LC_MESSAGES\liveusb-creator.mo bs.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\ca\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\ca\LC_MESSAGES\liveusb-creator.mo ca.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\cs\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\cs\LC_MESSAGES\liveusb-creator.mo cs.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\da\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\da\LC_MESSAGES\liveusb-creator.mo da.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\de\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\de\LC_MESSAGES\liveusb-creator.mo de.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\el\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\el\LC_MESSAGES\liveusb-creator.mo el.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\en_GB\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\en_GB\LC_MESSAGES\liveusb-creator.mo en_GB.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\es\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\es\LC_MESSAGES\liveusb-creator.mo es.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\fa\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\fa\LC_MESSAGES\liveusb-creator.mo fa.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\fi\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\fi\LC_MESSAGES\liveusb-creator.mo fi.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\fr\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\fr\LC_MESSAGES\liveusb-creator.mo fr.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\he\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\he\LC_MESSAGES\liveusb-creator.mo he.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\hu\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\hu\LC_MESSAGES\liveusb-creator.mo hu.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\id\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\id\LC_MESSAGES\liveusb-creator.mo id.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\is\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\is\LC_MESSAGES\liveusb-creator.mo is.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\it\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\it\LC_MESSAGES\liveusb-creator.mo it.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\ja\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\ja\LC_MESSAGES\liveusb-creator.mo ja.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\ko\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\ko\LC_MESSAGES\liveusb-creator.mo ko.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\ms\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\ms\LC_MESSAGES\liveusb-creator.mo ms.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\nb\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\nb\LC_MESSAGES\liveusb-creator.mo nb.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\nds\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\nds\LC_MESSAGES\liveusb-creator.mo nds.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\nl\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\nl\LC_MESSAGES\liveusb-creator.mo nl.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\pa\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\pa\LC_MESSAGES\liveusb-creator.mo pa.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\pl\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\pl\LC_MESSAGES\liveusb-creator.mo pl.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\pt\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\pt\LC_MESSAGES\liveusb-creator.mo pt.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\pt_BR\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\pt_BR\LC_MESSAGES\liveusb-creator.mo pt_BR.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\ru\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\ru\LC_MESSAGES\liveusb-creator.mo ru.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\sk\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\sk\LC_MESSAGES\liveusb-creator.mo sk.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\sr\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\sr\LC_MESSAGES\liveusb-creator.mo sr.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\sr@latin\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\sr@latin\LC_MESSAGES\liveusb-creator.mo sr@latin.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\sv\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\sv\LC_MESSAGES\liveusb-creator.mo sv.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\th\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\th\LC_MESSAGES\liveusb-creator.mo th.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\uk\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\uk\LC_MESSAGES\liveusb-creator.mo uk.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\zh_CN\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\zh_CN\LC_MESSAGES\liveusb-creator.mo zh_CN.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>(
+mkdir locale\zh_TW\LC_MESSAGES  
+ python C:\Python27\Tools\i18n\msgfmt.py -o locale\zh_TW\LC_MESSAGES\liveusb-creator.mo zh_TW.po 
+) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\po>cd .. 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>echo Gerando arquivo executavel 
+Gerando arquivo executavel
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>python -OO setup.py py2exe 
 running py2exe
 running build_py
 creating build
 creating build\lib
 creating build\lib\liveusb
 copying liveusb\creator.py -> build\lib\liveusb
+copying liveusb\gettext_windows.py -> build\lib\liveusb
 copying liveusb\gui.py -> build\lib\liveusb
 copying liveusb\linux_dialog.py -> build\lib\liveusb
 copying liveusb\olpc.py -> build\lib\liveusb
 copying liveusb\releases.py -> build\lib\liveusb
 copying liveusb\resources_rc.py -> build\lib\liveusb
+copying liveusb\setup.py -> build\lib\liveusb
 copying liveusb\windows_dialog.py -> build\lib\liveusb
 copying liveusb\__init__.py -> build\lib\liveusb
 creating build\lib\liveusb\urlgrabber
@@ -22,19 +247,19 @@ copying liveusb/urlgrabber\__init__.py -> build\lib\liveusb/urlgrabber
 running build_scripts
 creating build\scripts-2.7
 copying and adjusting liveusb-creator -> build\scripts-2.7
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\temp
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\temp
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist
 *** searching for required modules ***
 *** parsing results ***
 *** finding dlls needed ***
 *** create binaries ***
 *** byte compile python files ***
-writing byte-compilation script 'c:\docume~1\xpmuser\config~1\temp\tmpy6cobr.py'
-C:\Python27\python.exe c:\docume~1\xpmuser\config~1\temp\tmpy6cobr.py
+writing byte-compilation script 'c:\docume~1\xpmuser\config~1\temp\tmpd_knqj.py'
+C:\Python27\python.exe c:\docume~1\xpmuser\config~1\temp\tmpd_knqj.py
 byte-compiling C:\Python27\lib\StringIO.py to StringIO.pyc
 byte-compiling C:\Python27\lib\UserDict.py to UserDict.pyc
 byte-compiling C:\Python27\lib\_LWPCookieJar.py to _LWPCookieJar.pyc
@@ -56,14 +281,14 @@ byte-compiling C:\Python27\lib\collections.py to collections.pyc
 byte-compiling C:\Python27\lib\cookielib.py to cookielib.pyc
 byte-compiling C:\Python27\lib\copy.py to copy.pyc
 byte-compiling C:\Python27\lib\copy_reg.py to copy_reg.pyc
+byte-compiling C:\Python27\lib\ctypes\__init__.py to ctypes\__init__.pyc
+byte-compiling C:\Python27\lib\ctypes\_endian.py to ctypes\_endian.pyc
 byte-compiling C:\Python27\lib\difflib.py to difflib.pyc
 byte-compiling C:\Python27\lib\dis.py to dis.pyc
 byte-compiling C:\Python27\lib\distutils\__init__.py to distutils\__init__.pyc
 byte-compiling C:\Python27\lib\distutils\errors.py to distutils\errors.pyc
 byte-compiling C:\Python27\lib\distutils\log.py to distutils\log.pyc
 byte-compiling C:\Python27\lib\distutils\spawn.py to distutils\spawn.pyc
-byte-compiling C:\Python27\lib\distutils\sysconfig.py to distutils\sysconfig.pyc
-byte-compiling C:\Python27\lib\distutils\text_file.py to distutils\text_file.pyc
 byte-compiling C:\Python27\lib\doctest.py to doctest.pyc
 byte-compiling C:\Python27\lib\dummy_thread.py to dummy_thread.pyc
 byte-compiling C:\Python27\lib\dummy_threading.py to dummy_threading.pyc
@@ -304,6 +529,7 @@ byte-compiling C:\Python27\lib\weakref.py to weakref.pyc
 byte-compiling C:\Python27\lib\zipfile.py to zipfile.pyc
 byte-compiling build\lib\liveusb\__init__.py to liveusb\__init__.pyc
 byte-compiling build\lib\liveusb\creator.py to liveusb\creator.pyc
+byte-compiling build\lib\liveusb\gettext_windows.py to liveusb\gettext_windows.pyc
 byte-compiling build\lib\liveusb\gui.py to liveusb\gui.pyc
 byte-compiling build\lib\liveusb\linux_dialog.py to liveusb\linux_dialog.pyc
 byte-compiling build\lib\liveusb\olpc.py to liveusb\olpc.pyc
@@ -315,158 +541,159 @@ byte-compiling build\lib\liveusb\urlgrabber\grabber.py to liveusb\urlgrabber\gra
 byte-compiling build\lib\liveusb\urlgrabber\keepalive.py to liveusb\urlgrabber\keepalive.pyc
 byte-compiling build\lib\liveusb\urlgrabber\progress.py to liveusb\urlgrabber\progress.pyc
 byte-compiling build\lib\liveusb\windows_dialog.py to liveusb\windows_dialog.pyc
-removing c:\docume~1\xpmuser\config~1\temp\tmpy6cobr.py
+removing c:\docume~1\xpmuser\config~1\temp\tmpd_knqj.py
 *** copy extensions ***
-copying C:\Python27\DLLs\_hashlib.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\DLLs\_socket.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\DLLs\_ssl.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\DLLs\bz2.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\DLLs\select.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\DLLs\unicodedata.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\PyQt4\QtCore.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\PyQt4
-copying C:\Python27\lib\site-packages\PyQt4\QtGui.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\PyQt4
-copying C:\Python27\lib\site-packages\Pythonwin\win32ui.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\sip.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\win32\_win32sysloader.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\win32\win32api.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\win32\win32file.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\win32\win32process.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\win32comext\shell\shell.pyd -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\win32com\shell
+copying C:\Python27\DLLs\_ctypes.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\_hashlib.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\_socket.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\_ssl.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\bz2.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\select.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\DLLs\unicodedata.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\PyQt4\QtCore.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\PyQt4
+copying C:\Python27\lib\site-packages\PyQt4\QtGui.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\PyQt4
+copying C:\Python27\lib\site-packages\Pythonwin\win32ui.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\sip.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\_win32sysloader.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\win32api.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\win32file.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32\win32process.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\lib\site-packages\win32comext\shell\shell.pyd -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7\win32com\shell
 *** copy dlls ***
-copying C:\WINDOWS\system32\pywintypes27.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\WINDOWS\system32\python27.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7
-setting sys.winver for 'K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7\python27.dll' to 'liveusb-creator'
-copying C:\Python27\w9xpopen.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist
-copying C:\Python27\lib\site-packages\PyQt4\QtCore4.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\Python27\lib\site-packages\PyQt4\QtGui4.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
-copying C:\WINDOWS\system32\pythoncom27.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\WINDOWS\system32\pywintypes27.dll -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\WINDOWS\system32\python27.dll -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7
+setting sys.winver for 'C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\bundle-2.7\python27.dll' to 'liveusb-creator'
+copying C:\Python27\lib\site-packages\PyQt4\QtCore4.dll -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\WINDOWS\system32\pythoncom27.dll -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
+copying C:\Python27\w9xpopen.exe -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist
+copying C:\Python27\lib\site-packages\PyQt4\QtGui4.dll -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\build\bdist.win32\winexe\collect-2.7
 *** copy data files ***
-copying LICENSE.txt -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
-copying tools\dd.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
-copying tools\syslinux.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
-copying tools\7z.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
-copying tools\7z.dll -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
-copying tools\7-Zip-License.txt -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\tools
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ar
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ar\LC_MESSAGES
-copying po\locale\ar\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ar\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ast
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ast\LC_MESSAGES
-copying po\locale\ast\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ast\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN\LC_MESSAGES
-copying po\locale\bn_IN\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bs
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bs\LC_MESSAGES
-copying po\locale\bs\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\bs\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ca
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ca\LC_MESSAGES
-copying po\locale\ca\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ca\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\cs
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\cs\LC_MESSAGES
-copying po\locale\cs\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\cs\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\da
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\da\LC_MESSAGES
-copying po\locale\da\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\da\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\de
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\de\LC_MESSAGES
-copying po\locale\de\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\de\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\el
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\el\LC_MESSAGES
-copying po\locale\el\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\el\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB\LC_MESSAGES
-copying po\locale\en_GB\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\es
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\es\LC_MESSAGES
-copying po\locale\es\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\es\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fa
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fa\LC_MESSAGES
-copying po\locale\fa\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fa\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fi
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fi\LC_MESSAGES
-copying po\locale\fi\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fi\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fr
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fr\LC_MESSAGES
-copying po\locale\fr\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\fr\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\he
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\he\LC_MESSAGES
-copying po\locale\he\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\he\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\hu
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\hu\LC_MESSAGES
-copying po\locale\hu\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\hu\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\id
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\id\LC_MESSAGES
-copying po\locale\id\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\id\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\is
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\is\LC_MESSAGES
-copying po\locale\is\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\is\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\it
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\it\LC_MESSAGES
-copying po\locale\it\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\it\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ja
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ja\LC_MESSAGES
-copying po\locale\ja\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ja\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ko
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ko\LC_MESSAGES
-copying po\locale\ko\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ko\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ms
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ms\LC_MESSAGES
-copying po\locale\ms\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ms\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nb
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nb\LC_MESSAGES
-copying po\locale\nb\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nb\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nds
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nds\LC_MESSAGES
-copying po\locale\nds\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nds\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nl
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nl\LC_MESSAGES
-copying po\locale\nl\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\nl\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pa
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pa\LC_MESSAGES
-copying po\locale\pa\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pa\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pl
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pl\LC_MESSAGES
-copying po\locale\pl\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pl\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt\LC_MESSAGES
-copying po\locale\pt\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR\LC_MESSAGES
-copying po\locale\pt_BR\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ru
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ru\LC_MESSAGES
-copying po\locale\ru\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\ru\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sk
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sk\LC_MESSAGES
-copying po\locale\sk\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sk\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr\LC_MESSAGES
-copying po\locale\sr\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin\LC_MESSAGES
-copying po\locale\sr@latin\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sv
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sv\LC_MESSAGES
-copying po\locale\sv\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\sv\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\th
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\th\LC_MESSAGES
-copying po\locale\th\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\th\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\uk
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\uk\LC_MESSAGES
-copying po\locale\uk\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\uk\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN\LC_MESSAGES
-copying po\locale\zh_CN\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN\LC_MESSAGES
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW
-creating K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW\LC_MESSAGES
-copying po\locale\zh_TW\LC_MESSAGES\liveusb-creator.mo -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW\LC_MESSAGES
-copying C:\Python27\lib\site-packages\py2exe\run_w.exe -> K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\liveusb-creator.exe
-Adding python27.dll as resource to K:\Users\André\Documents\GitHub\ekaaty_liveusbcreator\dist\liveusb-creator.exe
+copying LICENSE.txt -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\dd.exe -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\syslinux.exe -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\7z.exe -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\7z.dll -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\tools
+copying tools\7-Zip-License.txt -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\tools
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ar
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ar\LC_MESSAGES
+copying po\locale\ar\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ar\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ast
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ast\LC_MESSAGES
+copying po\locale\ast\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ast\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN\LC_MESSAGES
+copying po\locale\bn_IN\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\bn_IN\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\bs
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\bs\LC_MESSAGES
+copying po\locale\bs\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\bs\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ca
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ca\LC_MESSAGES
+copying po\locale\ca\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ca\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\cs
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\cs\LC_MESSAGES
+copying po\locale\cs\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\cs\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\da
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\da\LC_MESSAGES
+copying po\locale\da\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\da\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\de
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\de\LC_MESSAGES
+copying po\locale\de\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\de\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\el
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\el\LC_MESSAGES
+copying po\locale\el\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\el\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB\LC_MESSAGES
+copying po\locale\en_GB\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\en_GB\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\es
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\es\LC_MESSAGES
+copying po\locale\es\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\es\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fa
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fa\LC_MESSAGES
+copying po\locale\fa\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fa\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fi
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fi\LC_MESSAGES
+copying po\locale\fi\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fi\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fr
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fr\LC_MESSAGES
+copying po\locale\fr\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\fr\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\he
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\he\LC_MESSAGES
+copying po\locale\he\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\he\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\hu
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\hu\LC_MESSAGES
+copying po\locale\hu\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\hu\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\id
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\id\LC_MESSAGES
+copying po\locale\id\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\id\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\is
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\is\LC_MESSAGES
+copying po\locale\is\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\is\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\it
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\it\LC_MESSAGES
+copying po\locale\it\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\it\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ja
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ja\LC_MESSAGES
+copying po\locale\ja\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ja\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ko
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ko\LC_MESSAGES
+copying po\locale\ko\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ko\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ms
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ms\LC_MESSAGES
+copying po\locale\ms\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ms\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nb
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nb\LC_MESSAGES
+copying po\locale\nb\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nb\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nds
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nds\LC_MESSAGES
+copying po\locale\nds\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nds\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nl
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nl\LC_MESSAGES
+copying po\locale\nl\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\nl\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pa
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pa\LC_MESSAGES
+copying po\locale\pa\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pa\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pl
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pl\LC_MESSAGES
+copying po\locale\pl\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pl\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pt
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pt\LC_MESSAGES
+copying po\locale\pt\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pt\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR\LC_MESSAGES
+copying po\locale\pt_BR\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\pt_BR\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ru
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ru\LC_MESSAGES
+copying po\locale\ru\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\ru\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sk
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sk\LC_MESSAGES
+copying po\locale\sk\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sk\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sr
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sr\LC_MESSAGES
+copying po\locale\sr\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sr\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin\LC_MESSAGES
+copying po\locale\sr@latin\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sr@latin\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sv
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sv\LC_MESSAGES
+copying po\locale\sv\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\sv\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\th
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\th\LC_MESSAGES
+copying po\locale\th\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\th\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\uk
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\uk\LC_MESSAGES
+copying po\locale\uk\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\uk\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN\LC_MESSAGES
+copying po\locale\zh_CN\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\zh_CN\LC_MESSAGES
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW
+creating C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW\LC_MESSAGES
+copying po\locale\zh_TW\LC_MESSAGES\liveusb-creator.mo -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\locale\zh_TW\LC_MESSAGES
+copying C:\Python27\lib\site-packages\py2exe\run_w.exe -> C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\liveusb-creator.exe
+Adding python27.dll as resource to C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\liveusb-creator.exe
 The following modules appear to be missing
-['_scproxy', 'dbus', 'dbus.mainloop.qt', 'gettext_windows', 'i18n', 'parted', 'urlgrabber.urlread', 'win32com.gen_py']
+['_scproxy', 'dbus', 'dbus.mainloop.qt', 'i18n', 'parted', 'urlgrabber.urlread', 'win32com.gen_py']
 
 *** binary dependencies ***
 Your executable(s) also depend on these dlls which are not included,
@@ -491,8 +718,458 @@ make sure you don't distribute files belonging to the operating system.
    VERSION.dll - C:\WINDOWS\system32\VERSION.dll
    KERNEL32.dll - C:\WINDOWS\system32\KERNEL32.dll
    MSVCP90.dll - C:\WINDOWS\system32\MSVCP90.dll
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>echo Construindo diretorios e copiando arquivos de suporte 
+Construindo diretorios e copiando arquivos de suporte
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>copy README.txt dist\ 
         1 arquivo(s) copiado(s).
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>copy LICENSE.TXT dist\ 
         1 arquivo(s) copiado(s).
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>copy data\liveusb-creator.ico dist\liveusb-creator.ico 
         1 arquivo(s) copiado(s).
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>copy data\vcredist_x86.exe dist\ 
         1 arquivo(s) copiado(s).
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>copy data\liveusb-creator.nsi dist\liveusb-creator.nsi 
+        1 arquivo(s) copiado(s).
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>"C:\Arquivos de programas\NSIS\makensis.exe" dist\liveusb-creator.nsi 
+MakeNSIS v2.46 - Copyright 1995-2009 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Processing config: 
+Processing plugin dlls: "C:\Arquivos de programas\NSIS\Plugins\*.dll"
+ - AdvSplash::show
+ - Banner::destroy
+ - Banner::getWindow
+ - Banner::show
+ - BgImage::AddImage
+ - BgImage::AddText
+ - BgImage::Clear
+ - BgImage::Destroy
+ - BgImage::Redraw
+ - BgImage::SetBg
+ - BgImage::SetReturn
+ - BgImage::Sound
+ - Dialer::AttemptConnect
+ - Dialer::AutodialHangup
+ - Dialer::AutodialOnline
+ - Dialer::AutodialUnattended
+ - Dialer::GetConnectedState
+ - InstallOptions::dialog
+ - InstallOptions::initDialog
+ - InstallOptions::show
+ - LangDLL::LangDialog
+ - Math::Script
+ - NSISdl::download
+ - NSISdl::download_quiet
+ - Splash::show
+ - StartMenu::Init
+ - StartMenu::Select
+ - StartMenu::Show
+ - System::Alloc
+ - System::Call
+ - System::Copy
+ - System::Free
+ - System::Get
+ - System::Int64Op
+ - System::Store
+ - TypeLib::GetLibVersion
+ - TypeLib::Register
+ - TypeLib::UnRegister
+ - UserInfo::GetAccountType
+ - UserInfo::GetName
+ - UserInfo::GetOriginalAccountType
+ - VPatch::GetFileCRC32
+ - VPatch::GetFileMD5
+ - VPatch::vpatchfile
+ - nsDialogs::Create
+ - nsDialogs::CreateControl
+ - nsDialogs::CreateItem
+ - nsDialogs::CreateTimer
+ - nsDialogs::GetUserData
+ - nsDialogs::KillTimer
+ - nsDialogs::OnBack
+ - nsDialogs::OnChange
+ - nsDialogs::OnClick
+ - nsDialogs::OnNotify
+ - nsDialogs::SelectFileDialog
+ - nsDialogs::SelectFolderDialog
+ - nsDialogs::SetRTL
+ - nsDialogs::SetUserData
+ - nsDialogs::Show
+ - nsExec::Exec
+ - nsExec::ExecToLog
+ - nsExec::ExecToStack
+
+!define: "MUI_INSERT_NSISCONF"=""
+
+Changing directory to: "C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist"
+
+Processing script file: "dist\liveusb-creator.nsi"
+Name: "LiveUSB Creator 3.11.7"
+OutFile: "liveusb-creator-3.11.7-setup.exe"
+!include: "C:\Arquivos de programas\NSIS\Include\MUI2.nsh"
+!include: "C:\Arquivos de programas\NSIS\Contrib\Modern UI 2\MUI2.nsh"
+NSIS Modern User Interface version 2.0 - Copyright 2002-2009 Joost Verburg (C:\Arquivos de programas\NSIS\Contrib\Modern UI 2\MUI2.nsh:8)
+!define: "MUI_INCLUDED"=""
+!define: "MUI_SYSVERSION"="2.0"
+!define: "MUI_VERBOSE"="3"
+!include: closed: "C:\Arquivos de programas\NSIS\Contrib\Modern UI 2\MUI2.nsh"
+!include: closed: "C:\Arquivos de programas\NSIS\Include\MUI2.nsh"
+XPStyle: on
+SetCompressor: lzma
+InstallDir: "$PROGRAMFILES\LiveUSB Creator"
+InstallRegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\LiveUSB Creator\"
+DirText: "Select the directory to install LiveUSB Creator in:" "" "" ""
+!define: "MUI_ICON"="liveusb-creator.ico"
+!insertmacro: MUI_PAGE_WELCOME
+!insertmacro: end of MUI_PAGE_WELCOME
+!insertmacro: MUI_PAGE_DIRECTORY
+!insertmacro: end of MUI_PAGE_DIRECTORY
+!insertmacro: MUI_PAGE_INSTFILES
+!insertmacro: end of MUI_PAGE_INSTFILES
+!define: "MUI_FINISHPAGE_NOAUTOCLOSE"=""
+!define: "MUI_FINISHPAGE_RUN"="$INSTDIR\liveusb-creator.exe"
+!insertmacro: MUI_PAGE_FINISH
+!insertmacro: end of MUI_PAGE_FINISH
+!insertmacro: MUI_UNPAGE_CONFIRM
+!insertmacro: end of MUI_UNPAGE_CONFIRM
+!insertmacro: MUI_UNPAGE_INSTFILES
+!insertmacro: end of MUI_UNPAGE_INSTFILES
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+!insertmacro: MUI_LANGUAGE
+!insertmacro: end of MUI_LANGUAGE
+Section: ""
+SetOverwrite: on
+SetOutPath: "$INSTDIR"
+File: "vcredist_x86.exe" [compress] 5073240 bytes
+IfFileExists: "$WINDIR\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.21022.8_x-ww_d08d0375" ? vcredist_install_finished : vcredist_silent_install
+DetailPrint: "Installing the Microsoft Visual C++ 2008 Redistributable Package"
+ExecWait: ""$INSTDIR\vcredist_x86.exe" /q" (->)
+Delete: "$INSTDIR\vcredist_x86.exe"
+File: "liveusb-creator.exe" [compress] 7234331/27544004 bytes
+File: "LICENSE.txt" [compress] 6570/18327 bytes
+File: "README.txt" [compress] 807/1503 bytes
+File: "w9xpopen.exe" [compress] 23889/49664 bytes
+File: Descending to: ".\locale\"
+File: Descending to: ".\locale\ar\"
+File: Descending to: ".\locale\ar\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3231/8661 bytes
+File: Descending to: ".\locale\ast\"
+File: Descending to: ".\locale\ast\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3094/7320 bytes
+File: Descending to: ".\locale\bn_IN\"
+File: Descending to: ".\locale\bn_IN\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 1314/3013 bytes
+File: Descending to: ".\locale\bs\"
+File: Descending to: ".\locale\bs\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 2762/6963 bytes
+File: Descending to: ".\locale\ca\"
+File: Descending to: ".\locale\ca\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3039/7534 bytes
+File: Descending to: ".\locale\cs\"
+File: Descending to: ".\locale\cs\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3192/7409 bytes
+File: Descending to: ".\locale\da\"
+File: Descending to: ".\locale\da\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 2974/7204 bytes
+File: Descending to: ".\locale\de\"
+File: Descending to: ".\locale\de\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3203/7742 bytes
+File: Descending to: ".\locale\el\"
+File: Descending to: ".\locale\el\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3488/9774 bytes
+File: Descending to: ".\locale\en_GB\"
+File: Descending to: ".\locale\en_GB\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 1902/7140 bytes
+File: Descending to: ".\locale\es\"
+File: Descending to: ".\locale\es\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3030/7414 bytes
+File: Descending to: ".\locale\fa\"
+File: Descending to: ".\locale\fa\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3309/9121 bytes
+File: Descending to: ".\locale\fi\"
+File: Descending to: ".\locale\fi\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3054/7308 bytes
+File: Descending to: ".\locale\fr\"
+File: Descending to: ".\locale\fr\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 4386/11651 bytes
+File: Descending to: ".\locale\he\"
+File: Descending to: ".\locale\he\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3155/8365 bytes
+File: Descending to: ".\locale\hu\"
+File: Descending to: ".\locale\hu\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3135/7425 bytes
+File: Descending to: ".\locale\id\"
+File: Descending to: ".\locale\id\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 2884/7252 bytes
+File: Descending to: ".\locale\is\"
+File: Descending to: ".\locale\is\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 580/876 bytes
+File: Descending to: ".\locale\it\"
+File: Descending to: ".\locale\it\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 2996/7591 bytes
+File: Descending to: ".\locale\ja\"
+File: Descending to: ".\locale\ja\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3164/8291 bytes
+File: Descending to: ".\locale\ko\"
+File: Descending to: ".\locale\ko\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3188/7784 bytes
+File: Descending to: ".\locale\ms\"
+File: Descending to: ".\locale\ms\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 418/594 bytes
+File: Descending to: ".\locale\nb\"
+File: Descending to: ".\locale\nb\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 1209/2368 bytes
+File: Descending to: ".\locale\nds\"
+File: Descending to: ".\locale\nds\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3147/7496 bytes
+File: Descending to: ".\locale\nl\"
+File: Descending to: ".\locale\nl\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 2961/7425 bytes
+File: Descending to: ".\locale\pa\"
+File: Descending to: ".\locale\pa\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3269/10287 bytes
+File: Descending to: ".\locale\pl\"
+File: Descending to: ".\locale\pl\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 4223/10666 bytes
+File: Descending to: ".\locale\pt\"
+File: Descending to: ".\locale\pt\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3100/7778 bytes
+File: Descending to: ".\locale\pt_BR\"
+File: Descending to: ".\locale\pt_BR\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3085/7731 bytes
+File: Descending to: ".\locale\ru\"
+File: Descending to: ".\locale\ru\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3383/9368 bytes
+File: Descending to: ".\locale\sk\"
+File: Descending to: ".\locale\sk\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3147/7356 bytes
+File: Descending to: ".\locale\sr\"
+File: Descending to: ".\locale\sr\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3448/9744 bytes
+File: Descending to: ".\locale\sr@latin\"
+File: Descending to: ".\locale\sr@latin\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3171/7489 bytes
+File: Descending to: ".\locale\sv\"
+File: Descending to: ".\locale\sv\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3026/7164 bytes
+File: Descending to: ".\locale\th\"
+File: Descending to: ".\locale\th\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3220/10191 bytes
+File: Descending to: ".\locale\uk\"
+File: Descending to: ".\locale\uk\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3289/9058 bytes
+File: Descending to: ".\locale\zh_CN\"
+File: Descending to: ".\locale\zh_CN\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3010/6699 bytes
+File: Descending to: ".\locale\zh_TW\"
+File: Descending to: ".\locale\zh_TW\LC_MESSAGES\"
+File: "liveusb-creator.mo" [compress] 3155/7081 bytes
+File: Returning to: "."
+SetOutPath: "$INSTDIR\tools"
+File: "7z.dll" [compress] 233148/601088 bytes
+File: "7z.exe" [compress] 63335/141824 bytes
+File: "7-Zip-License.txt" [compress] 1306/3178 bytes
+File: "dd.exe" [compress] 152454/342016 bytes
+File: "syslinux.exe" [compress] 44767/71168 bytes
+SetOutPath: "$INSTDIR"
+CreateDirectory: "$SMPROGRAMS\LiveUSB Creator"
+CreateShortCut: "$SMPROGRAMS\LiveUSB Creator\LiveUSB Creator.lnk"->"$INSTDIR\liveusb-creator.exe"  icon:,0, showmode=0x0, hotkey=0x0, comment=
+CreateShortCut: "$SMPROGRAMS\LiveUSB Creator\Uninstall LiveUSB Creator.lnk"->"$INSTDIR\uninst.exe"  icon:$INSTDIR\uninst.exe,0, showmode=0x0, hotkey=0x0, comment=
+WriteRegStr: HKEY_LOCAL_MACHINE\SOFTWARE\LiveUSB Creator\=$INSTDIR
+WriteRegStr: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\LiveUSB Creator\DisplayName=LiveUSB Creator (remove only)
+WriteRegStr: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\LiveUSB Creator\UninstallString="$INSTDIR\uninst.exe"
+WriteUninstaller: "$INSTDIR\uninst.exe"
+SectionEnd
+UninstallText: "This will uninstall LiveUSB Creator from your system." ""
+Section: "Uninstall"
+Delete: "$SMPROGRAMS\LiveUSB Creator\LiveUSB Creator.lnk"
+Delete: "$SMPROGRAMS\LiveUSB Creator\Uninstall LiveUSB Creator.lnk"
+RMDir: "$SMPROGRAMS\LiveUSB Creator"
+Delete: "$DESKTOP\LiveUSB Creator.lnk"
+Delete: "$INSTDIR\uninst.exe"
+DeleteRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\LiveUSB Creator
+DeleteRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\LiveUSB Creator
+Delete: "$INSTDIR\liveusb-creator.exe"
+Delete: "$INSTDIR\LICENSE.txt"
+Delete: "$INSTDIR\README.txt"
+Delete: "$INSTDIR\w9xpopen.exe"
+Delete: "$INSTDIR\tools\7z.dll"
+Delete: "$INSTDIR\tools\7z.exe"
+Delete: "$INSTDIR\tools\7-Zip-License.txt"
+Delete: "$INSTDIR\tools\dd.exe"
+Delete: "$INSTDIR\tools\syslinux.exe"
+Delete: "$INSTDIR\liveusb-creator.exe.log"
+RMDir: /R "$INSTDIR\locale"
+RMDir: "$INSTDIR\tools"
+RMDir: "$INSTDIR"
+SectionEnd
+!insertmacro: SetUILanguage
+Function: "SetUILanguage"
+Push: $R0
+Plugin Command: Call kernel32::GetUserDefaultUILanguage() i.r10
+StrCpy $LANGUAGE "$R0" () ()
+Pop: $R0
+FunctionEnd
+!insertmacro: end of SetUILanguage
+!insertmacro: SetUILanguage
+Function: "un.SetUILanguage"
+Push: $R0
+File: "System.dll"->"$PLUGINSDIR\System.dll" [compress] 5871/11264 bytes
+Plugin Command: Call kernel32::GetUserDefaultUILanguage() i.r10
+StrCpy $LANGUAGE "$R0" () ()
+Pop: $R0
+FunctionEnd
+!insertmacro: end of SetUILanguage
+Function: ".onInit"
+Call "SetUILanguage"
+FunctionEnd
+Function: "un.onInit"
+Call "un.SetUILanguage"
+FunctionEnd
+
+Processed 1 file, writing output:
+Adding plug-ins initializing function... Done!
+Processing pages... Done!
+Removing unused resources... Done!
+Generating language tables... Done!
+Generating uninstaller... Done!
+
+Output: "C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator\dist\liveusb-creator-3.11.7-setup.exe"
+Install: 5 pages (320 bytes), 1 section (1048 bytes), 577 instructions (16156 bytes), 3113 strings (100656 bytes), 56 language tables (16912 bytes).
+Uninstall: 3 pages (192 bytes), 
+1 section (1048 bytes), 93 instructions (2604 bytes), 2381 strings (63178 bytes), 56 language tables (14224 bytes).
+Datablock optimizer saved 19999 bytes (~0.1%).
+
+Using lzma compression.
+
+EXE header size:               63488 / 34304 bytes
+Install code:                  46210 / 135468 bytes
+Install data:               12956953 / 34245005 bytes
+Uninstall code+data:           44435 / 49941 bytes
+CRC (0x08B47742):                  4 / 4 bytes
+
+Total size:                 13111090 / 34464722 bytes (38.0%)
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>IF EXIST dist (rename dist ekaaty-liveusb-creator-1.0 )  ELSE (echo Ocorreu um erro ao criar a pasta de distribuicao ) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>IF EXIST build (rmdir /S /Q build ) 
+
+C:\Documents and Settings\XPMUser\Meus documentos\GitHub\ekaaty_liveusbcreator>echo Encerrando execucao... 
 Encerrando execucao...
