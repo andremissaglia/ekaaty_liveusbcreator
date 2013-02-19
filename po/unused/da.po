@@ -215,7 +215,7 @@ msgstr ""
 "før du kører dette program."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedora LiveUSB-opretter"
 
 #: ../liveusb/dialog.py:124

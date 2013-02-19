@@ -215,7 +215,7 @@ msgstr ""
 "отримано до запуск програми."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Створення Fedora LiveUSB"
 
 #: ../liveusb/dialog.py:124

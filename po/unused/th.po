@@ -205,7 +205,7 @@ msgid ""
 msgstr "ไม่พบ '%s' กรุณาแตกไฟล์ซิป liveusb-creator ทั้งไฟล์ก่อนเรียกใช้โปรแกรมนี้"
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "ตัวสร้าง Fedora LiveUSB"
 
 #: ../liveusb/dialog.py:124

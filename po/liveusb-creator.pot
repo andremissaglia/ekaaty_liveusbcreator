@@ -200,7 +200,7 @@ msgid ""
 msgstr ""
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr ""
 
 #: ../liveusb/dialog.py:124

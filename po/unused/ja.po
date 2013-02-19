@@ -217,8 +217,8 @@ msgstr ""
 "イル全体を展開したかどうか確認してください。"
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
-msgstr "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
+msgstr "Ekaaty LiveUSB Creator"
 
 #: ../liveusb/dialog.py:124
 msgid ""

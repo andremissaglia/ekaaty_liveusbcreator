@@ -200,7 +200,7 @@ msgid "Cannot find '%s'.  Make sure to extract the entire liveusb-creator zip fi
 msgstr "找不到「%s」。請確認在執行這個程式之前有解開整個 liveusb-creator 的 zip 檔案。"
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedora LiveUSB 建立程式"
 
 #: ../liveusb/dialog.py:124

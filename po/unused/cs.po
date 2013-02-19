@@ -217,7 +217,7 @@ msgstr ""
 "liveusb-creator.zip než jste program spustili."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedora tvůrce LiveCD"
 
 #: ../liveusb/dialog.py:124

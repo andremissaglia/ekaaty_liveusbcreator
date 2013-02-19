@@ -1,7 +1,7 @@
 from distutils.core import setup
 import sys, os
 
-VERSION = '3.11.8'
+VERSION = '0.1'
 
 LOCALE_DIR= '/usr/share/locale'
 
@@ -93,7 +93,7 @@ else:
         maintainer = 'Alexandre Teles',
         maintainer_email = 'ateles.1@gmail.com',
         data_files = [("/usr/share/applications",["data/liveusb-creator.desktop"]), 
-                      ('/usr/share/pixmaps',["data/fedorausb.png"]),
+                      ('/usr/share/pixmaps',["data/ekaatyusb.png"]),
                       ] + [(os.path.join(LOCALE_DIR, locale),
                             [os.path.join('po', 'locale', locale, 'liveusb-creator.mo')])
                             for locale in locales]

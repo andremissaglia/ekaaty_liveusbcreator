@@ -198,7 +198,7 @@ msgid "Cannot find '%s'.  Make sure to extract the entire liveusb-creator zip fi
 msgstr "نمی تواند  '%s' را پیدا کند. مطمئن شوید همه محتوای فایل زیپ  liveusb-creator را قبل ار اجرای این برنامه استخراج کرده اید."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "سازنده لایو‌ یو‌اس‌بی فدورا"
 
 #: ../liveusb/dialog.py:124

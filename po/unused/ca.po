@@ -230,7 +230,7 @@ msgstr ""
 "abans d'executar el programa."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Creador de LiveUSB de Fedora"
 
 #: ../liveusb/dialog.py:124

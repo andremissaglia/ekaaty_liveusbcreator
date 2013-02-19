@@ -207,7 +207,7 @@ msgid ""
 msgstr "Kan inte hitta ”%s”.  Se till att extrahera hela liveusb-creator-zip-filen före du kör detta program."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedoras LiveUSB-skapare"
 
 #: ../liveusb/dialog.py:124

@@ -216,7 +216,7 @@ msgstr ""
 "tohto programu."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedora tvorca LiveUSB"
 
 #: ../liveusb/dialog.py:124

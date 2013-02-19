@@ -216,7 +216,7 @@ msgstr ""
 "purettu ennen tämän ohjelman suorittamista."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedoran LiveUSB-luontityökalu"
 
 #: ../liveusb/dialog.py:124

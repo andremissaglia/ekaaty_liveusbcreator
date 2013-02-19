@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'data\liveusb-creator.ui'
 #
-# Created: Fri Feb 15 00:44:45 2013
+# Created: Tue Feb 19 19:12:14 2013
 #      by: PyQt4 UI code generator 4.9.6
 #
 # WARNING! All changes made in this file will be lost!
@@ -122,7 +122,7 @@ class Ui_Dialog(object):
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
-        Dialog.setWindowTitle(_translate("Dialog", "Fedora LiveUSB Creator", None))
+        Dialog.setWindowTitle(_translate("Dialog", "Ekaaty LiveUSB Creator", None))
         self.startButton.setWhatsThis(_translate("Dialog", "This button will begin the LiveUSB creation process.  This entails optionally downloading a release (if an existing one wasn\'t selected),  extracting the ISO to the USB device, creating the persistent overlay, and installing the bootloader.", None))
         self.startButton.setText(_translate("Dialog", "Create Live USB", None))
         self.textEdit.setWhatsThis(_translate("Dialog", "This is the status console, where all messages get written to.", None))

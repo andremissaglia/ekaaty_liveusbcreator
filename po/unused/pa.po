@@ -217,7 +217,7 @@ msgstr ""
 "ਤੋਂ ਪਹਿਲਾਂ ਖੋਲਣਾ ਨਾ ਭੁੱਲੋ।"
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "ਫੇਡੋਰਾ ਲਾਈਵ-USB ਨਿਰਮਾਤਾ"
 
 #: ../liveusb/dialog.py:124

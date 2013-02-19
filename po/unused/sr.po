@@ -217,7 +217,7 @@ msgstr ""
 "датотеку у целости пре покретања овог програма."
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Програм за прављење живих Fedora УСБ дискова"
 
 #: ../liveusb/dialog.py:124

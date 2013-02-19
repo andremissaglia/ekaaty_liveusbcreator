@@ -62,7 +62,7 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %{_sbindir}/%{name}
 %{_datadir}/applications/fedora-liveusb-creator.desktop
-%{_datadir}/pixmaps/fedorausb.png
+%{_datadir}/pixmaps/ekaatyusb.png
 #%{_datadir}/locale/*/LC_MESSAGES/liveusb-creator.mo
 %config(noreplace) %{_sysconfdir}/pam.d/%{name}
 %config(noreplace) %{_sysconfdir}/security/console.apps/%{name}

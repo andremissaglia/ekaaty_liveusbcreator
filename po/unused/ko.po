@@ -205,8 +205,8 @@ msgid ""
 msgstr "'%s'을(를) 찾을 수 없습니다.  이 프로그램을 실행하기 전 liveusb-creator zip 파일 전체를 추출했는지 확인합니다.  "
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
-msgstr "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
+msgstr "Ekaaty LiveUSB Creator"
 
 #: ../liveusb/dialog.py:124
 msgid ""

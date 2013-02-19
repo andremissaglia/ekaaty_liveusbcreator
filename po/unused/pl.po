@@ -329,7 +329,7 @@ msgstr ""
 "uruchomieniem tego programu."
 
 #: ../liveusb/linux_dialog.py:98 ../liveusb/windows_dialog.py:104
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Tworzenie LiveUSB Fedory"
 
 #: ../liveusb/linux_dialog.py:99 ../liveusb/windows_dialog.py:105

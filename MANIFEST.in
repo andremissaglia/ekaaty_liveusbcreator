@@ -21,7 +21,7 @@ include data/liveusb-creator-tabbed.ui
 include data/resources.qrc
 include data/refresh.png
 include data/liveusb-creator.desktop
-include data/fedorausb.png
+include data/ekaatyusb.png
 include liveusb-creator.console
 include liveusb-creator.pam
 include liveusb-creator.spec

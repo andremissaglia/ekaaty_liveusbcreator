@@ -210,7 +210,7 @@ msgid ""
 msgstr "找不到“%s”。请确认在运行本程序前解压整个 liveusb-creator 压缩文件。"
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedora LiveUSB 创建者"
 
 #: ../liveusb/dialog.py:124

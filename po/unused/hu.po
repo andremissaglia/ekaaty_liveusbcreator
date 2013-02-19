@@ -213,7 +213,7 @@ msgid "You can try again to resume your download"
 msgstr "Megpróbálhatja újra, így folytatva a letöltést"
 
 #: ../liveusb/dialog.py:123
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Fedora LiveUSB készítő"
 
 #: ../liveusb/gui.py:387

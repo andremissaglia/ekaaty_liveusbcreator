@@ -130,7 +130,7 @@ msgid "Extracting live image to USB device..."
 msgstr "Extraction de l'image live vers le périphérique USB..."
 
 #: ../liveusb/windows_dialog.py:104
-msgid "Fedora LiveUSB Creator"
+msgid "Ekaaty LiveUSB Creator"
 msgstr "Créateur de Live USB Fedora"
 
 #: ../liveusb/urlgrabber/grabber.py:1189
