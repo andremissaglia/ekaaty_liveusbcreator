@@ -7,17 +7,17 @@ ARCHES = ('i386', 'i686', 'x86_64')
 
 # A backup list of releases, just in case we can't fetch them.
 fedora_releases = [
-    {'name': 'Ekaaty 5 i686 Desktop',
-     'sha256': '',
+    {'name': 'Ekaaty 5 i386 Desktop',
+     'sha256': '9a190c7c8bbb981496a173635858ef0d042a448b32d68b354728a2b0212460f1',
      'url': 'http://download.ekaaty.org/linux/ekaaty/pataxos/i386/iso/pataxos-5u1-i386-dvd.iso'},
     {'name': 'Ekaaty 5 x86_64 Desktop',
-     'sha256': '',
+     'sha256': 'b9c4b4794d1ec24611f807185f835d31e38f7ab80b41c49ccf90d97b953ffa45',
      'url': 'http://download.ekaaty.org/linux/ekaaty/pataxos/x86_64/iso/pataxos-5u1-x86_64-dvd.iso'},
-    {'name': 'Ekaaty 5 i686 Academic',
-     'sha256': '',
+    {'name': 'Ekaaty 5 i386 Academic',
+     'sha256': '1b0834bb3322768700fe6dd6607e6a547876f8042b17199f879907dc87ba938a',
      'url': 'http://download.ekaaty.org/linux/ekaaty/pataxos/i386/iso/pataxos-5u1-i386-academic.iso'},
     {'name': 'Ekaaty 5 x86_64 Academic',
-     'sha256': '',
+     'sha256': 'f1733cfe3b64231e2c4f01f648b8e0de36e6ccc22fed70ae8ef4e41e4abb4d32',
      'url': 'http://download.ekaaty.org/linux/ekaaty/pataxos/x86_64/iso/pataxos-5u1-x86_64-academic.iso'},
 ]
 
